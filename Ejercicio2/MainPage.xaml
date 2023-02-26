@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 1.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+        <Label Text="App elaborada por Jimmy " FontSize="16" Padding="30,0,30,30"/>
+
+        <Label Text="Nombre" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="nombre" Placeholder="Ingrese Nombre" Keyboard="Text" Margin="5,0,0,0" FontSize="Small"/>
+
+        <Label Text="Apellidos" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="apellidos" Placeholder="Ingrese Apellidos" Keyboard="Text" Margin="5,0,0,0" FontSize="Small"/>
+
+        <Label Text="Edad" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="edad" Placeholder="Ingrese Edad" Keyboard="Numeric" Margin="5,0,0,0" FontSize="Small"/>
+
+        <Label Text="Correo Electronico" FontSize="Title" Padding="5,0,0,0"/>
+        <Entry x:Name="correo" Placeholder="Ingrese Correo" Keyboard="Text" Margin="5,0,0,0" FontSize="Small"/>
+
+
+        <Button Text="Enviar Información" x:Name="btnEnviar" Clicked="btnEnviar_Clicked" BackgroundColor="Gold"/>
+
+    </StackLayout>
+
+</ContentPage>

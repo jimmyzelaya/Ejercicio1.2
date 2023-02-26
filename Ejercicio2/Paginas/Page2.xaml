@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.Paginas.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Label Text="" FontSize="Title" Padding="5,200,0,0" HorizontalOptions="CenterAndExpand"/>
+            
+            <Label Text="{Binding rNombre}"
+                   HorizontalOptions="CenterAndExpand" x:Name="lbnombre"/>
+
+            <Label Text="{Binding rApellidos}"
+                   HorizontalOptions="CenterAndExpand" x:Name="lbapellidos"/>
+
+            <Label Text="{Binding rEdad}"
+                   HorizontalOptions="CenterAndExpand" x:Name="lbedad"/>
+
+            <Label Text="{Binding rCorreo}"
+                   HorizontalOptions="CenterAndExpand" x:Name="lbcorreo"/>
+
+
+            <Label Text="DS22" FontSize="Micro" Padding="5,490,0,0" HorizontalOptions="CenterAndExpand"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
